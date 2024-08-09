@@ -273,7 +273,7 @@ export default function HomePage() {
 
   return (
     <>
-      <CallToAction />
+      {/* <CallToAction /> */}
       <nav className="sm:pt-8 pt-4 px-4 sm:px-12 flex items-center">
         <div className="pr-3 font-semibold text-gray-500">Chat with</div>
         <div className="font-semibold text-gray-500 sm:text-center">
@@ -341,7 +341,7 @@ export default function HomePage() {
         {error && <div className="text-red-500">{error.toString()}</div>}
 
         <article className="pb-24">
-          <EmptyState setPrompt={setAndSubmitPrompt} setOpen={setOpen} />
+          {/* <EmptyState setPrompt={setAndSubmitPrompt} setOpen={setOpen} /> */}
 
           {messages.map((message, index) => (
             <Message
